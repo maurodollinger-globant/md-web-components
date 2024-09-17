@@ -1,0 +1,36 @@
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>My components</title> <link rel="modulepreload" href="/build/p-08961259.js"><script type="module" data-stencil data-resources-url="/build/" data-stencil-namespace="md-components">import{p as e,b as a}from"/build/p-08961259.js";export{s as setNonce}from"/build/p-08961259.js";import{g as t}from"/build/p-e1255160.js";var n=()=>{const a=import.meta.url;const t={};if(a!==""){t.resourcesUrl=new URL(".",a).href}return e(t)};n().then((async e=>{await t();return a([["p-5d477877",[[1,"md-modal",{isOpen:[4,"is-open"],modalTitle:[513,"modal-title"],internalIsOpen:[32],open:[64],close:[64]}]]],["p-0f859f8b",[[1,"md-checkbox",{checked:[516],internalChecked:[32]}]]],["p-ceb6f40a",[[1,"md-dropdown-list",{items:[16],isOpen:[32],selectedOption:[32]}]]],["p-8edc9a85",[[1,"md-input",{value:[1],placeholder:[1],disabled:[4],internalValue:[32]}]]],["p-1cda4266",[[1,"md-tab-panel",{tabs:[1],activeTab:[32]}]]],["p-19dcb245",[[1,"md-user-card",{name:[1],email:[1],avatar:[1],direction:[1]}]]],["p-5533a1a2",[[1,"md-button",{buttonType:[1,"button-type"],size:[1],disabled:[4]}]]]],e)}));
+//# sourceMappingURL=md-components.esm.js.map
+</script> <script nomodule="" src="/build/md-components.js" data-stencil></script> <style>:root {
+        --md-font-family: sans-serif;
+        --md-color-primary: #6200ee;
+        --md-color-secondary: #03dac6;
+        --md-color-primary-alt: #717171;
+        --md-button-color-disabled: #e0e0e0;
+        --md-button-background-color: #f5f5f5;
+        --md-button-background-color-hover: #e0e0e0;
+        --md-button-background-color-active: #d5d5d5;
+        --md-text-primary: #2f2044;
+        --md-color-checked: #6200ee;
+        --md-checkbox-shadow: 1px 1px 0 1px #6300ee3e;
+      }</style> </head> <body> <div style="display: flex; flex-direction: column; gap: 1rem; padding: 1rem;"> <!--<md-button>my button</md-button>
+      <md-input placeholder="Placeholder"></md-input>
+      <md-checkbox>My checkbox</md-checkbox>
+      <md-user-card direction="vertical" name="John Doe" email="john@doe.com" avatar="https://i.pravatar.cc/150?img=12"></md-user-card>
+      <md-dropdown-list></md-dropdown-list>
+      <md-modal>This is the modal content</md-modal>--> <md-tab-panel tabs="[&quot;Tab 1&quot;, &quot;Tab 2&quot;, &quot;Tab 3&quot;]"> <div slot="tab-0" class="tab-content">Content for Tab 1</div> <div slot="tab-1" class="tab-content">Content for Tab 2</div> <div slot="tab-2" class="tab-content">Content for Tab 3</div> </md-tab-panel> </div> <script>
+      const button = document.querySelector('md-button');
+      const modal = document.querySelector('md-modal');
+      button.addEventListener('click', () => {
+        modal.open();
+      });
+
+      // const input = document.querySelector('md-input');
+      // input.addEventListener('valueChange', event => {
+      //   console.log('input value:', event.detail);
+      // });
+
+      // const checkbox = document.querySelector('md-checkbox');
+      // checkbox.addEventListener('change', event => {
+      //   console.log('checkbox checked:', event.target.checked);
+      // });
+    </script> </body></html>

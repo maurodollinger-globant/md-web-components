@@ -1,0 +1,24 @@
+.md-input {
+  font-family: var(--md-font-family, sans-serif);
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--md-color-primary, #ccc);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  color: var(--md-text-primary, #333);
+  box-shadow: 1px 1px 0 1px var(--md-color-primary, #ccc);
+}
+
+.md-input:focus,
+.md-input:focus-visible {
+  outline: none;
+  box-shadow: 1px 1px 0 1.75px var(--md-color-primary, #ccc);
+}
+
+.md-input[disabled],
+.md-input.md-input--disabled {
+  border-color: var(--md-button-color-disabled, lightgrey);
+  box-shadow: 1px 1px 0 1.75px var(--md-button-color-disabled, lightgrey);
+  cursor: not-allowed;
+}

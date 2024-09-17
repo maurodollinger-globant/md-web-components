@@ -1,0 +1,52 @@
+.md-button {
+  font-family: var(--md-font-family, sans-serif);
+  color: var(--md-color-primary, white);
+  background-color: var(--md-button-background-color, grey);
+  border: 1px solid var(--md-color-primary, #ccc);
+  border-radius: 0.25rem;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.2s ease;
+  box-shadow: 1px 1px 0 1px var(--md-color-primary, #ccc);
+}
+
+.md-button:hover {
+  background-color: var(--md-button-background-color-hover, darkgrey);
+  box-shadow: 1px 1px 0 1.75px var(--md-color-primary, #ccc);
+}
+
+.md-button:active,
+.md-button.active {
+  background-color: var(--md-button-background-color-active, black);
+}
+
+.md-button[disabled],
+.md-button.md-button--disabled {
+  background-color: var(--md-button-color-disabled, lightgrey);
+  box-shadow: 1px 1px 0 1.75px var(--md-button-color-disabled, lightgrey);
+  border-color: var(--md-button-color-disabled, lightgrey);
+
+  cursor: not-allowed;
+}
+
+.md-button:focus,
+.md-button:focus-visible {
+  outline: none;
+  box-shadow: 1px 1px 0 1.75px var(--md-color-primary, #ccc);
+}
+
+.md-button-small {
+  font-size: 14px;
+  padding: 0.25rem 0.5rem;
+}
+
+.md-button-medium {
+  font-size: 16px;
+  padding: 0.5rem 0.75rem;
+}
+
+.md-button-large {
+  font-size: 18px;
+  padding: 0.75rem 0.8rem;
+}

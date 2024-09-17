@@ -1,0 +1,41 @@
+.md-user-card {
+  font-family: var(--md-font-family, sans-serif);
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--md-color-primary, #ccc);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  gap: 1rem;
+  transition: all 0.2s ease;
+  color: var(--md-text-primary, #333);
+  box-shadow: 1px 1px 0 1px var(--md-color-primary, #ccc);
+}
+
+.md-user-card-vertical {
+  display: inline-block;
+  max-width: 176px;
+}
+
+.md-user-card-horizontal {
+  display: inline-flex;
+  align-items: center;
+  max-width: 500px;
+}
+
+.md-user-card-horizontal .md-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.md-user-card-horizontal .md-user-info {
+  margin-right: 0.5rem;
+}
+
+.md-avatar {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.md-user-info {
+  word-break: break-word;
+}
